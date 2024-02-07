@@ -1,3 +1,5 @@
+alert("From assets");
+
 import "lite-youtube-embed";
 import BasePage from "./base-page";
 import Lightbox from "fslightbox";
