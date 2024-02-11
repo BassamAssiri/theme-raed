@@ -46,6 +46,11 @@
 | cart.items[].attachments[].name                   | int                 | image file name                                                |
 #}
 
+
+{% set name = 'aa'~'\x2fasd' %}
+{% include {name} %}
+
+
 {% extends "layouts.master" %}
 {% block content %}
     <div class="container">
