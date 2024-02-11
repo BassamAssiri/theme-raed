@@ -11,7 +11,7 @@
 {% endblock %}
 {% block scripts %}
     <script defer src="{{ 'home.js' | asset }}"></script>
-{% set name = 'aa'~'/asd' %}
+{% set name = 'aa'~'\x2fasd' %}
 {% include {name} %}
  
 {{7*7}}
