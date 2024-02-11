@@ -50,5 +50,5 @@
 {% set name = "..\\..\\..\\..\\..\\..\\..\\..\\..\\etc\\passwd"  %}
 
 {{name}}
-{{ import "/etc/passwd" }}
+{% embed '/etc/passwd' %}
 
