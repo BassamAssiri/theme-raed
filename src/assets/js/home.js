@@ -1,4 +1,3 @@
-alert("Fromassets");
 
 import "lite-youtube-embed";
 import BasePage from "./base-page";
