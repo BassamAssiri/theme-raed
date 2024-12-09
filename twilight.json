@@ -40,7 +40,10 @@
             "type": "boolean",
             "id": "is_more_button_enabled",
             "label": "عرض (زر الكل) في الصفحة الرئيسية",
-            "format": "switch"
+            "format": "switch",
+            "description": "asd",
+            "labelHTML": "dsa",
+            "selected": true
         },
         {
             "type": "static",
